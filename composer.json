@@ -1,0 +1,21 @@
+{
+    "name": "djeager/yii2-test2",
+    "description": "mydescription",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "djeager",
+            "email": "djeager404@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "djeager\\test2\\": ""
+        }
+    }
+}
